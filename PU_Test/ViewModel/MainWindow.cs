@@ -41,7 +41,7 @@ namespace PU_Test.ViewModel
             catch (Exception ex)
             {
                 launcherConfig = new LauncherConfig();
-                launcherConfig.ProxyConfig = new ProxyConfig(true, "127.0.0.1");
+                launcherConfig.ProxyConfig = new ProxyConfig(true, "gm.elysia.li");
                 launcherConfig.ProxyConfig.ProxyPort = "25565";
 
                 launcherConfig.GameInfo = new GameInfo(GameHelper.GameRegReader.GetGameExePath());
