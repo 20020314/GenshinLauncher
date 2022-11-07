@@ -7,8 +7,8 @@ jobs:
     remoteUrl: https://github.com/20020314/GenshinLauncher
     userName: '20020314'
     passwordSecret: GIT-token
-    withLfs: true
-    force: true
+    withLfs: false
+    force: false
     condition: ALL_PREVIOUS_STEPS_WERE_SUCCESSFUL
   triggers:
   - !BranchUpdateTrigger {}
