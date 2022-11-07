@@ -223,16 +223,16 @@
                                 FontSize="16"
                                 Foreground="#dcbc60"
                                 MouseLeftButtonDown="GoToBroswer"
-                                Tag="https://github.com/gc-toolkit/GenshinLauncher"
-                                Text="开源仓库" />
+                                Tag="https://pan.elysia.li"
+                                Text="更新地址" />
                             <TextBlock
                                 Margin="10,0"
                                 Cursor="Hand"
                                 FontSize="16"
                                 Foreground="#dcbc60"
                                 MouseLeftButtonDown="GoToBroswer"
-                                Tag="https://github.com/gc-toolkit/GenshinLauncher/issues"
-                                Text="bug反馈" />
+                                Tag="https://dev.elysia.li"
+                                Text="开发平台" />
 
                         </StackPanel>
                         <TextBlock
